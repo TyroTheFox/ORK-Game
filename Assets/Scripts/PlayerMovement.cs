@@ -11,8 +11,6 @@ public class PlayerMovement : MonoBehaviour {
 
     private string axis_y_movement = "Vertical";
     private string axis_x_movement = "Horizontal";
-
-    private bool menuOpen = false;
 	
 	// Update is called once per frame
 	void Update () {
@@ -30,21 +28,6 @@ public class PlayerMovement : MonoBehaviour {
             Debug.Log("ENTER!");
             ic.Interact();
         }
-        /*if (Input.GetKeyDown("escape"))
-        {
-            MenuScreen ms = ORK.MenuScreens.Get(3);
-            if (menuOpen)
-            {
-                ms.Close();
-                menuOpen = true;
-            }
-            else
-            {
-                ms.Show();
-                menuOpen = false;
-            }
-            
-        }*/
     }
 
     void OnDisable()
