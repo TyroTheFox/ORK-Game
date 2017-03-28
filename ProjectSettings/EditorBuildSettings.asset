@@ -13,5 +13,3 @@ EditorBuildSettings:
     path: Assets/Scenes/TestRoom2.unity
   - enabled: 1
     path: Assets/Scenes/TestLevel.unity
-  - enabled: 1
-    path: Assets/Scenes/TestForest.unity
