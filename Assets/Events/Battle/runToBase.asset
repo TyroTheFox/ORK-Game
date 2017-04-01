@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -988360344, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
+  m_Name: runToBase
+  m_EditorClassIdentifier: 
+  time: 3/26/2017 9:52:58 PM
+  version: 2.10.0
+  data:
+    name: battleEvent
+    xmlData: "<battleEvent startIndex=\"0\" >\n\t<_float noBlockChance=\"100\" />\n\t<_bool
+      blockMoveAI=\"False\" blockActorMoveAI=\"False\" blockControlMaps=\"False\"
+      resetCam=\"False\" resetLook=\"True\" calcNeeded=\"False\" clearBlocks=\"False\"
+      autoDamageDealers=\"True\" mainCamera=\"True\" cameraTag=\"False\" ignoreCamBlock=\"False\"
+      destroyPrefabs=\"False\" overrideNodeName=\"False\" />\n\t<_floatarrays>\n\t\t<nodePosition
+      38 38 />\n\t</_floatarrays>\n\t<_string>\n\t\t<cameraName><![CDATA[]]></cameraName>\n\t\t<nodeName><![CDATA[]]></nodeName>\n\t</_string>\n\t<_subarrays>\n\t\t<prefab>\n\t\t</prefab>\n\t\t<audioClip>\n\t\t</audioClip>\n\t\t<step>\n\t\t\t<0
+      speedType=\"1\" interpolation=\"0\" next=\"-1\" >\n\t\t\t\t<_float timeBetween=\"0\"
+      distance=\"0\" secureTime=\"0.5\" speed=\"5\" />\n\t\t\t\t<_bool waitBetween=\"True\"
+      toObject=\"True\" useCenter=\"True\" localSpace=\"False\" localPosition=\"False\"
+      move=\"True\" wait=\"True\" ignoreHeightDistance=\"True\" useController=\"True\"
+      applyGravity=\"False\" face=\"False\" ignoreRadius=\"False\" useSpeed=\"True\"
+      secureMove=\"False\" stopAtTarget=\"False\" followPosition=\"True\" active=\"True\"
+      overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<offset 0 0
+      0 />\n\t\t\t\t\t<nodePosition 266 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[ChangePositionStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<moveObject
+      type=\"0\" aID=\"0\" wID=\"0\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey
+      type=\"0\" >\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</moveObject>\n\t\t\t\t<targetObject
+      type=\"1\" aID=\"1\" wID=\"0\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey
+      type=\"0\" >\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</targetObject>\n\t\t\t</0>\n\t\t</step>\n\t</_subarrays>\n</battleEvent>\n"
+    lookUp:
+      textures: []
+      audioClips: []
+      gameObjects: []
+      guiSkins: []
+      materials: []
+      fonts: []
+      eventAssets: []
+      generalAssets: []
+    encrypted: 0
