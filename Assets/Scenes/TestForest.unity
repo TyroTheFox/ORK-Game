@@ -1903,7 +1903,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 271523028}
-  m_RootOrder: 315
+  m_RootOrder: 267
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &176634190
 Prefab:
@@ -2124,7 +2124,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 271523028}
-  m_RootOrder: 314
+  m_RootOrder: 263
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &191723204
 Prefab:
@@ -3179,32 +3179,25 @@ Transform:
   - {fileID: 364126591}
   - {fileID: 613195790}
   - {fileID: 1849225707}
+  - {fileID: 253264930}
   - {fileID: 1936826992}
   - {fileID: 1114537199}
   - {fileID: 527086211}
   - {fileID: 1167792611}
   - {fileID: 1810581669}
+  - {fileID: 196073748}
+  - {fileID: 921400379}
   - {fileID: 809352342}
   - {fileID: 338280524}
   - {fileID: 1418680874}
-  - {fileID: 1186183114}
-  - {fileID: 50656902}
-  - {fileID: 1989598726}
-  - {fileID: 456205310}
-  - {fileID: 397040400}
-  - {fileID: 196073748}
-  - {fileID: 921400379}
-  - {fileID: 1308110331}
-  - {fileID: 1754174180}
-  - {fileID: 2129162807}
   - {fileID: 803901528}
   - {fileID: 1687693674}
   - {fileID: 2001479576}
-  - {fileID: 1190327337}
-  - {fileID: 253264930}
+  - {fileID: 1186183114}
+  - {fileID: 50656902}
   - {fileID: 1509509073}
-  - {fileID: 1718283430}
-  - {fileID: 1571979817}
+  - {fileID: 456205310}
+  - {fileID: 397040400}
   - {fileID: 92956578}
   - {fileID: 934347684}
   - {fileID: 202833582}
@@ -3223,10 +3216,12 @@ Transform:
   - {fileID: 1870241577}
   - {fileID: 1884920530}
   - {fileID: 1817146124}
+  - {fileID: 82673179}
   - {fileID: 820704616}
   - {fileID: 1402574039}
   - {fileID: 1086031422}
   - {fileID: 1966418329}
+  - {fileID: 2129162807}
   - {fileID: 168633258}
   - {fileID: 1261114200}
   - {fileID: 1798033946}
@@ -3239,8 +3234,10 @@ Transform:
   - {fileID: 1849306710}
   - {fileID: 2129150562}
   - {fileID: 237504533}
+  - {fileID: 314877275}
   - {fileID: 197349253}
   - {fileID: 1934385609}
+  - {fileID: 1989598726}
   - {fileID: 95335388}
   - {fileID: 1680619601}
   - {fileID: 1044961251}
@@ -3248,27 +3245,26 @@ Transform:
   - {fileID: 1153742059}
   - {fileID: 130793134}
   - {fileID: 1987316008}
+  - {fileID: 1754174180}
   - {fileID: 419867060}
   - {fileID: 1006569081}
   - {fileID: 1857290148}
-  - {fileID: 82673179}
-  - {fileID: 738315080}
-  - {fileID: 1651961313}
-  - {fileID: 735591826}
-  - {fileID: 19213370}
-  - {fileID: 2091275243}
   - {fileID: 2062967337}
+  - {fileID: 1190327337}
   - {fileID: 48563803}
+  - {fileID: 738315080}
   - {fileID: 525092426}
+  - {fileID: 1308110331}
   - {fileID: 672520293}
   - {fileID: 1289127842}
-  - {fileID: 1497927582}
-  - {fileID: 314877275}
+  - {fileID: 735591826}
+  - {fileID: 19213370}
   - {fileID: 816480687}
   - {fileID: 1317761038}
   - {fileID: 742195041}
   - {fileID: 1182570000}
   - {fileID: 1445273414}
+  - {fileID: 1718283430}
   - {fileID: 568879014}
   - {fileID: 1714525036}
   - {fileID: 1864366805}
@@ -3295,6 +3291,7 @@ Transform:
   - {fileID: 1813588817}
   - {fileID: 891687819}
   - {fileID: 1406497607}
+  - {fileID: 1571979817}
   - {fileID: 561841224}
   - {fileID: 1722284087}
   - {fileID: 1068185546}
@@ -3316,13 +3313,15 @@ Transform:
   - {fileID: 1560208862}
   - {fileID: 251752035}
   - {fileID: 385196803}
-  - {fileID: 1326412274}
+  - {fileID: 2091275243}
   - {fileID: 215744234}
   - {fileID: 1400459917}
   - {fileID: 2086971627}
+  - {fileID: 190544804}
   - {fileID: 500943259}
   - {fileID: 1097057218}
   - {fileID: 1993031486}
+  - {fileID: 175661446}
   - {fileID: 226333800}
   - {fileID: 1527840386}
   - {fileID: 980528585}
@@ -3348,6 +3347,7 @@ Transform:
   - {fileID: 254923822}
   - {fileID: 1360876269}
   - {fileID: 683139228}
+  - {fileID: 1690358916}
   - {fileID: 191723205}
   - {fileID: 566742001}
   - {fileID: 1952103031}
@@ -3368,26 +3368,26 @@ Transform:
   - {fileID: 27300660}
   - {fileID: 615952785}
   - {fileID: 1660031713}
-  - {fileID: 190544804}
-  - {fileID: 175661446}
-  - {fileID: 1690358916}
+  - {fileID: 1118132805}
+  - {fileID: 1641279743}
+  - {fileID: 689050374}
   - {fileID: 367146696}
   - {fileID: 261284582}
   - {fileID: 533875502}
   - {fileID: 466374446}
   - {fileID: 923629533}
-  - {fileID: 1118132805}
-  - {fileID: 1641279743}
-  - {fileID: 689050374}
   - {fileID: 1284552559}
   - {fileID: 1955261428}
   - {fileID: 1316015911}
   - {fileID: 2012365476}
+  - {fileID: 1497927582}
+  - {fileID: 1651961313}
   - {fileID: 16923209}
   - {fileID: 233913701}
   - {fileID: 850643908}
   - {fileID: 1838900305}
   - {fileID: 762589564}
+  - {fileID: 1326412274}
   - {fileID: 144113005}
   - {fileID: 941423990}
   - {fileID: 1104166891}
@@ -7063,7 +7063,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 271523028}
-  m_RootOrder: 324
+  m_RootOrder: 316
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &689050375
 SpriteRenderer:
@@ -11996,7 +11996,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 271523028}
-  m_RootOrder: 322
+  m_RootOrder: 314
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1125873719
 Prefab:
@@ -13636,7 +13636,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 271523028}
-  m_RootOrder: 325
+  m_RootOrder: 322
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1284552560
 SpriteRenderer:
@@ -14119,7 +14119,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 271523028}
-  m_RootOrder: 327
+  m_RootOrder: 324
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1316015912
 SpriteRenderer:
@@ -17981,7 +17981,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 271523028}
-  m_RootOrder: 323
+  m_RootOrder: 315
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1641279744
 SpriteRenderer:
@@ -18701,7 +18701,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 271523028}
-  m_RootOrder: 316
+  m_RootOrder: 293
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1690369574
 Prefab:
@@ -21318,7 +21318,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 271523028}
-  m_RootOrder: 326
+  m_RootOrder: 323
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1955261429
 SpriteRenderer:
@@ -22135,7 +22135,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 271523028}
-  m_RootOrder: 328
+  m_RootOrder: 325
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &2012365477
 SpriteRenderer:
@@ -22707,93 +22707,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4440941177785844, guid: 5b8d959b2a99ff648aae617af27b793d,
     type: 2}
   m_PrefabInternal: {fileID: 2062967336}
---- !u!1 &2076945005
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 2076945010}
-  - component: {fileID: 2076945009}
-  - component: {fileID: 2076945008}
-  - component: {fileID: 2076945007}
-  - component: {fileID: 2076945006}
-  m_Layer: 0
-  m_Name: Main Camera
-  m_TagString: MainCamera
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!81 &2076945006
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2076945005}
-  m_Enabled: 1
---- !u!124 &2076945007
-Behaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2076945005}
-  m_Enabled: 1
---- !u!92 &2076945008
-Behaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2076945005}
-  m_Enabled: 1
---- !u!20 &2076945009
-Camera:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2076945005}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19117647, g: 0.14619377, b: 0.14619377, a: 0}
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 1
-  orthographic size: 5
-  m_Depth: -1
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
-  m_StereoMirrorMode: 0
---- !u!4 &2076945010
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2076945005}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.7, y: 4.4, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2081490336
 Prefab:
   m_ObjectHideFlags: 0
