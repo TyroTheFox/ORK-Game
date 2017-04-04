@@ -9,9 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
-  m_Name: 636266820124561631
+  m_Name: 636268704640284034
   m_EditorClassIdentifier: 
-  time: 4/1/2017 9:56:45 PM
+  time: 4/4/2017 2:26:53 AM
   version: 2.10.0
   keys:
   - editorSettings
@@ -1034,7 +1034,7 @@ MonoBehaviour:
     xmlData: "<cameraPositions>\n\t<_subarrays>\n\t\t<data>\n\t\t\t<0>\n\t\t\t\t<_float
       fieldOfView=\"40\" />\n\t\t\t\t<_bool localSpace=\"False\" rotationIsOffset=\"False\"
       lookAt=\"False\" ignoreXRotation=\"False\" ignoreYRotation=\"False\" ignoreZRotation=\"False\"
-      setFoV=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<position 0 0 0 />\n\t\t\t\t\t<rotation
+      setFoV=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<position 2 0 -10 />\n\t\t\t\t\t<rotation
       0 0 0 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Default
       Position]]></name>\n\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t</_string>\n\t\t\t</0>\n\t\t\t<1>\n\t\t\t\t<_float
       fieldOfView=\"150\" />\n\t\t\t\t<_bool localSpace=\"False\" rotationIsOffset=\"False\"
@@ -1042,11 +1042,11 @@ MonoBehaviour:
       setFoV=\"True\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<position 0 0 0 />\n\t\t\t\t\t<rotation
       0 0 0 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Battle
       Start Zoom]]></name>\n\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t</_string>\n\t\t\t</1>\n\t\t\t<2>\n\t\t\t\t<_float
-      fieldOfView=\"40\" />\n\t\t\t\t<_bool localSpace=\"False\" rotationIsOffset=\"False\"
+      fieldOfView=\"40\" />\n\t\t\t\t<_bool localSpace=\"True\" rotationIsOffset=\"False\"
       lookAt=\"True\" ignoreXRotation=\"False\" ignoreYRotation=\"False\" ignoreZRotation=\"False\"
-      setFoV=\"True\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<position -8 13 0 />\n\t\t\t\t\t<rotation
+      setFoV=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<position 8 0 0 />\n\t\t\t\t\t<rotation
       0 0 0 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Battle
-      View]]></name>\n\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t</_string>\n\t\t\t</2>\n\t\t</data>\n\t</_subarrays>\n</cameraPositions>\n"
+      View]]></name>\n\t\t\t\t\t<childName><![CDATA[Camera]]></childName>\n\t\t\t\t</_string>\n\t\t\t</2>\n\t\t</data>\n\t</_subarrays>\n</cameraPositions>\n"
     lookUp:
       textures: []
       audioClips: []
@@ -1060,7 +1060,9 @@ MonoBehaviour:
   - name: musicClips
     xmlData: "<musicClips>\n\t<_subarrays>\n\t\t<data>\n\t\t\t<0>\n\t\t\t\t<_float
       maxVolume=\"1\" />\n\t\t\t\t<_bool doLoop=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Battle
-      Theme]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<clipLoop>\n\t\t\t\t\t</clipLoop>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t</data>\n\t</_subarrays>\n</musicClips>\n"
+      Theme]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<clipLoop>\n\t\t\t\t\t</clipLoop>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t\t<1>\n\t\t\t\t<_float
+      maxVolume=\"1\" />\n\t\t\t\t<_bool doLoop=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Victory
+      Music]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<clipLoop>\n\t\t\t\t\t</clipLoop>\n\t\t\t\t</_subarrays>\n\t\t\t</1>\n\t\t</data>\n\t</_subarrays>\n</musicClips>\n"
     lookUp:
       textures: []
       audioClips: []

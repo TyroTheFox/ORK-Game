@@ -615,6 +615,105 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &515416631
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 515416633}
+  - component: {fileID: 515416632}
+  m_Layer: 0
+  m_Name: Music Player 0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &515416632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 515416631}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1642719726, guid: f5c55b3678e89c6409bf2371aaef7c05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useSceneID: 1
+  sceneID: 0
+  autoDestroy: 0
+  repeatDestroy: 0
+  destroyCheckTime: 1
+  checkObjectVariables: 0
+  variableCondition:
+    needed: 0
+    gameVariable: []
+  setObjectVariables: 0
+  variableSetter:
+    gameVariable: []
+  questCondition:
+    neededQuests: 0
+    questStatus: []
+    neededTasks: 0
+    taskStatus: []
+  startType: 1
+  inBlockedControl: 0
+  customType: 
+  autoStartAfter: 0
+  allowClick: 1
+  overrideClickDistance: 0
+  maxClickDistance: 3
+  useMoveToInteraction: 1
+  destinationObject: {fileID: 0}
+  overrideInteractionRadius: 0
+  interactionRadius: 1
+  overrideStopDistance: 0
+  stopDistance: 1
+  keyToPress: 0
+  keyPressInTrigger: 0
+  keyPressWhileColliding: 0
+  dropItem:
+    type: 0
+    id: 0
+    level: 1
+    quantity: 1
+    chance: 100
+  consumeDrop: 0
+  startByCollider: 1
+  startByTrigger: 1
+  startByRootObject: 0
+  useOtherObject: 0
+  startObjectCheck:
+    checkName: 0
+    isTag: 0
+    name: 
+    components: []
+  horizontalPlane: 1
+  useFront: 1
+  useBack: 1
+  useLeft: 1
+  useRight: 1
+  channel: 0
+  musicID: 0
+  playType: 0
+  fadeTime: 1
+  interpolate: 0
+--- !u!4 &515416633
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 515416631}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.04, y: -0.02, z: -58.021484}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 26
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &543748266
 Prefab:
   m_ObjectHideFlags: 0
@@ -1478,11 +1577,11 @@ MonoBehaviour:
   eaChance: 0
   itemGains: []
   useDefaultStart: 1
-  startEventAsset: {fileID: 0}
+  startEventAsset: {fileID: 11400000, guid: 5debfc606b8dd984a8114b49b14c4b6f, type: 2}
   useDefaultEnd: 1
-  victoryEventAsset: {fileID: 0}
-  escapeEventAsset: {fileID: 0}
-  defeatEventAsset: {fileID: 0}
+  victoryEventAsset: {fileID: 11400000, guid: 83deaf47adfd6cd46b1671205e2aff54, type: 2}
+  escapeEventAsset: {fileID: 11400000, guid: ab7f7973430bfb9428b2534148ddb14e, type: 2}
+  defeatEventAsset: {fileID: 11400000, guid: d7bd02e243a47aa4a83659210d4c67d5, type: 2}
   leaveArenaEventAsset: {fileID: 0}
   useDefaultAutoJoin: 1
   autoJoin:

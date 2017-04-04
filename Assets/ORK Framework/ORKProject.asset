@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: ORKProject
   m_EditorClassIdentifier: 
-  time: 4/1/2017 10:21:14 PM
+  time: 4/4/2017 2:41:04 AM
   version: 2.10.0
   keys:
   - editorSettings
@@ -1034,7 +1034,7 @@ MonoBehaviour:
     xmlData: "<cameraPositions>\n\t<_subarrays>\n\t\t<data>\n\t\t\t<0>\n\t\t\t\t<_float
       fieldOfView=\"40\" />\n\t\t\t\t<_bool localSpace=\"False\" rotationIsOffset=\"False\"
       lookAt=\"False\" ignoreXRotation=\"False\" ignoreYRotation=\"False\" ignoreZRotation=\"False\"
-      setFoV=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<position 0 0 0 />\n\t\t\t\t\t<rotation
+      setFoV=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<position 2 0 -10 />\n\t\t\t\t\t<rotation
       0 0 0 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Default
       Position]]></name>\n\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t</_string>\n\t\t\t</0>\n\t\t\t<1>\n\t\t\t\t<_float
       fieldOfView=\"150\" />\n\t\t\t\t<_bool localSpace=\"False\" rotationIsOffset=\"False\"
@@ -1042,11 +1042,11 @@ MonoBehaviour:
       setFoV=\"True\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<position 0 0 0 />\n\t\t\t\t\t<rotation
       0 0 0 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Battle
       Start Zoom]]></name>\n\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t</_string>\n\t\t\t</1>\n\t\t\t<2>\n\t\t\t\t<_float
-      fieldOfView=\"40\" />\n\t\t\t\t<_bool localSpace=\"False\" rotationIsOffset=\"False\"
+      fieldOfView=\"40\" />\n\t\t\t\t<_bool localSpace=\"True\" rotationIsOffset=\"False\"
       lookAt=\"True\" ignoreXRotation=\"False\" ignoreYRotation=\"False\" ignoreZRotation=\"False\"
-      setFoV=\"True\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<position -8 13 0 />\n\t\t\t\t\t<rotation
+      setFoV=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<position 8 0 0 />\n\t\t\t\t\t<rotation
       0 0 0 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Battle
-      View]]></name>\n\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t</_string>\n\t\t\t</2>\n\t\t</data>\n\t</_subarrays>\n</cameraPositions>\n"
+      View]]></name>\n\t\t\t\t\t<childName><![CDATA[Camera]]></childName>\n\t\t\t\t</_string>\n\t\t\t</2>\n\t\t</data>\n\t</_subarrays>\n</cameraPositions>\n"
     lookUp:
       textures: []
       audioClips: []
@@ -1060,7 +1060,9 @@ MonoBehaviour:
   - name: musicClips
     xmlData: "<musicClips>\n\t<_subarrays>\n\t\t<data>\n\t\t\t<0>\n\t\t\t\t<_float
       maxVolume=\"1\" />\n\t\t\t\t<_bool doLoop=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Battle
-      Theme]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<clipLoop>\n\t\t\t\t\t</clipLoop>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t</data>\n\t</_subarrays>\n</musicClips>\n"
+      Theme]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<clipLoop>\n\t\t\t\t\t</clipLoop>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t\t<1>\n\t\t\t\t<_float
+      maxVolume=\"1\" />\n\t\t\t\t<_bool doLoop=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Victory
+      Music]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<clipLoop>\n\t\t\t\t\t</clipLoop>\n\t\t\t\t</_subarrays>\n\t\t\t</1>\n\t\t</data>\n\t</_subarrays>\n</musicClips>\n"
     lookUp:
       textures: []
       audioClips: []
@@ -1294,9 +1296,10 @@ MonoBehaviour:
       allowMoveAI=\"False\" blockInBattleMoveAI=\"False\" useLeaveArena=\"False\"
       gainsUseInventoryAddType=\"True\" gainsCollectImmediately=\"False\" gainsDropItems=\"False\"
       gainsDropAI=\"False\" gainsDropRecipes=\"False\" gainsDropMoney=\"False\" gridTurnEndOrientation=\"False\"
-      />\n\t\t<_eventasset startEvent=\"0\" />\n\t\t<actionsPerTurn type=\"0\" id=\"0\"
-      rounding=\"0\" >\n\t\t\t<_float initialValue=\"0\" offset=\"0\" value=\"1\"
-      value2=\"0\" />\n\t\t\t<_bool isInt=\"False\" isUTC=\"False\" />\n\t\t\t<_string>\n\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t</_string>\n\t\t</actionsPerTurn>\n\t\t<defaultActionCostSetting>\n\t\t\t<_bool
+      />\n\t\t<_eventasset startEvent=\"0\" victoryEvent=\"1\" escapeEvent=\"2\" defeatEvent=\"3\"
+      />\n\t\t<actionsPerTurn type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t<_float
+      initialValue=\"0\" offset=\"0\" value=\"1\" value2=\"0\" />\n\t\t\t<_bool isInt=\"False\"
+      isUTC=\"False\" />\n\t\t\t<_string>\n\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t</_string>\n\t\t</actionsPerTurn>\n\t\t<defaultActionCostSetting>\n\t\t\t<_bool
       useRemaining=\"False\" />\n\t\t\t<cost type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t<_float
       initialValue=\"0\" offset=\"0\" value=\"1\" value2=\"0\" />\n\t\t\t\t<_bool
       isInt=\"False\" isUTC=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t</_string>\n\t\t\t</cost>\n\t\t</defaultActionCostSetting>\n\t\t<moveAIRange>\n\t\t\t<_float
@@ -1372,6 +1375,9 @@ MonoBehaviour:
       fonts: []
       eventAssets:
       - {fileID: 11400000, guid: 4a99fb17e373dda45985dbba79883715, type: 2}
+      - {fileID: 11400000, guid: 83deaf47adfd6cd46b1671205e2aff54, type: 2}
+      - {fileID: 11400000, guid: ab7f7973430bfb9428b2534148ddb14e, type: 2}
+      - {fileID: 11400000, guid: d7bd02e243a47aa4a83659210d4c67d5, type: 2}
       generalAssets: []
     encrypted: 0
   - name: attackAttributes

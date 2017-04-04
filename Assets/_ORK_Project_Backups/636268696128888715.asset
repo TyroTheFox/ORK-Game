@@ -9,9 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
-  m_Name: 636264357901382721
+  m_Name: 636268696128888715
   m_EditorClassIdentifier: 
-  time: 3/27/2017 11:50:01 PM
+  time: 4/4/2017 2:11:46 AM
   version: 2.10.0
   keys:
   - editorSettings
@@ -616,42 +616,9 @@ MonoBehaviour:
   - name: animations
     xmlData: "<animations>\n\t<_subarrays>\n\t\t<data>\n\t\t\t<0>\n\t\t\t\t<_bool
       mSetSpeed=\"False\" mSetAutoHorizontal=\"False\" mSetAutoVertical=\"False\"
-      mSetXRotation=\"False\" mSetYRotation=\"False\" mSetZRotation=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Default]]></name>\n\t\t\t\t\t<mAutoHoriziontal><![CDATA[]]></mAutoHoriziontal>\n\t\t\t\t\t<mAutoVertical><![CDATA[]]></mAutoVertical>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<legacy>\n\t\t\t\t\t\t<0
-      typeID=\"7\" layer=\"1\" playType=\"2\" playMode=\"0\" queueMode=\"0\" >\n\t\t\t\t\t\t\t<_float
-      stopFade=\"0.1\" fade=\"0.1\" weight=\"1\" />\n\t\t\t\t\t\t\t<_bool setLayer=\"True\"
-      setSpeed=\"False\" stopAll=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[damage]]></name>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1
-      typeID=\"8\" layer=\"1\" playType=\"2\" playMode=\"0\" queueMode=\"0\" >\n\t\t\t\t\t\t\t<_float
-      stopFade=\"0.1\" fade=\"0.1\" weight=\"1\" />\n\t\t\t\t\t\t\t<_bool setLayer=\"True\"
-      setSpeed=\"False\" stopAll=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[evade]]></name>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t\t<2
-      typeID=\"9\" layer=\"2\" playType=\"2\" playMode=\"0\" queueMode=\"0\" >\n\t\t\t\t\t\t\t<_float
-      stopFade=\"0.1\" fade=\"0.1\" weight=\"1\" />\n\t\t\t\t\t\t\t<_bool setLayer=\"True\"
-      setSpeed=\"False\" stopAll=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[death]]></name>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</2>\n\t\t\t\t\t\t<3
-      typeID=\"10\" layer=\"2\" playType=\"2\" playMode=\"0\" queueMode=\"0\" >\n\t\t\t\t\t\t\t<_float
-      stopFade=\"0.1\" fade=\"0.1\" weight=\"1\" />\n\t\t\t\t\t\t\t<_bool setLayer=\"True\"
-      setSpeed=\"False\" stopAll=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[revive]]></name>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</3>\n\t\t\t\t\t\t<4
-      typeID=\"11\" layer=\"2\" playType=\"2\" playMode=\"0\" queueMode=\"0\" >\n\t\t\t\t\t\t\t<_float
-      stopFade=\"0.1\" fade=\"0.1\" weight=\"1\" />\n\t\t\t\t\t\t\t<_bool setLayer=\"True\"
-      setSpeed=\"False\" stopAll=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[victory]]></name>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</4>\n\t\t\t\t\t\t<5
-      typeID=\"12\" layer=\"2\" playType=\"2\" playMode=\"0\" queueMode=\"0\" >\n\t\t\t\t\t\t\t<_float
-      stopFade=\"0.1\" fade=\"0.1\" weight=\"1\" />\n\t\t\t\t\t\t\t<_bool setLayer=\"True\"
-      setSpeed=\"False\" stopAll=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[attack]]></name>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</5>\n\t\t\t\t\t\t<6
-      typeID=\"13\" layer=\"2\" playType=\"2\" playMode=\"0\" queueMode=\"0\" >\n\t\t\t\t\t\t\t<_float
-      stopFade=\"0.1\" fade=\"0.1\" weight=\"1\" />\n\t\t\t\t\t\t\t<_bool setLayer=\"True\"
-      setSpeed=\"False\" stopAll=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[item]]></name>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</6>\n\t\t\t\t\t\t<7
-      typeID=\"14\" layer=\"2\" playType=\"2\" playMode=\"0\" queueMode=\"0\" >\n\t\t\t\t\t\t\t<_float
-      stopFade=\"0.1\" fade=\"0.1\" weight=\"1\" />\n\t\t\t\t\t\t\t<_bool setLayer=\"True\"
-      setSpeed=\"False\" stopAll=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[cast]]></name>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</7>\n\t\t\t\t\t\t<8
-      typeID=\"15\" layer=\"2\" playType=\"2\" playMode=\"0\" queueMode=\"0\" >\n\t\t\t\t\t\t\t<_float
-      stopFade=\"0.1\" fade=\"0.1\" weight=\"1\" />\n\t\t\t\t\t\t\t<_bool setLayer=\"True\"
-      setSpeed=\"False\" stopAll=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[defend]]></name>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</8>\n\t\t\t\t\t</legacy>\n\t\t\t\t\t<mecanim>\n\t\t\t\t\t</mecanim>\n\t\t\t\t\t<mecanimStateCheck>\n\t\t\t\t\t</mecanimStateCheck>\n\t\t\t\t\t<custom>\n\t\t\t\t\t</custom>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t\t<1>\n\t\t\t\t<_bool
+      mSetXRotation=\"False\" mSetYRotation=\"False\" mSetZRotation=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Default]]></name>\n\t\t\t\t\t<mAutoHoriziontal><![CDATA[]]></mAutoHoriziontal>\n\t\t\t\t\t<mAutoVertical><![CDATA[]]></mAutoVertical>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<legacy>\n\t\t\t\t\t</legacy>\n\t\t\t\t\t<mecanim>\n\t\t\t\t\t</mecanim>\n\t\t\t\t\t<mecanimStateCheck>\n\t\t\t\t\t</mecanimStateCheck>\n\t\t\t\t\t<custom>\n\t\t\t\t\t</custom>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t\t<1>\n\t\t\t\t<_bool
       mSetSpeed=\"False\" mSetAutoHorizontal=\"False\" mSetAutoVertical=\"False\"
-      mSetXRotation=\"False\" mSetYRotation=\"False\" mSetZRotation=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Battle]]></name>\n\t\t\t\t\t<mAutoHoriziontal><![CDATA[]]></mAutoHoriziontal>\n\t\t\t\t\t<mAutoVertical><![CDATA[]]></mAutoVertical>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<legacy>\n\t\t\t\t\t\t<0
-      typeID=\"0\" layer=\"-1\" playType=\"2\" playMode=\"0\" queueMode=\"0\" >\n\t\t\t\t\t\t\t<_float
-      stopFade=\"0.1\" fade=\"0.1\" weight=\"1\" />\n\t\t\t\t\t\t\t<_bool setLayer=\"True\"
-      setSpeed=\"False\" stopAll=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[battleidle]]></name>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1
-      typeID=\"2\" layer=\"0\" playType=\"2\" playMode=\"0\" queueMode=\"0\" >\n\t\t\t\t\t\t\t<_float
-      stopFade=\"0.1\" fade=\"0.1\" weight=\"1\" />\n\t\t\t\t\t\t\t<_bool setLayer=\"True\"
-      setSpeed=\"False\" stopAll=\"False\" />\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[battlerun]]></name>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</1>\n\t\t\t\t\t</legacy>\n\t\t\t\t\t<mecanim>\n\t\t\t\t\t</mecanim>\n\t\t\t\t\t<mecanimStateCheck>\n\t\t\t\t\t</mecanimStateCheck>\n\t\t\t\t\t<custom>\n\t\t\t\t\t</custom>\n\t\t\t\t</_subarrays>\n\t\t\t</1>\n\t\t</data>\n\t</_subarrays>\n</animations>\n"
+      mSetXRotation=\"False\" mSetYRotation=\"False\" mSetZRotation=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Battle]]></name>\n\t\t\t\t\t<mAutoHoriziontal><![CDATA[]]></mAutoHoriziontal>\n\t\t\t\t\t<mAutoVertical><![CDATA[]]></mAutoVertical>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<legacy>\n\t\t\t\t\t</legacy>\n\t\t\t\t\t<mecanim>\n\t\t\t\t\t</mecanim>\n\t\t\t\t\t<mecanimStateCheck>\n\t\t\t\t\t</mecanimStateCheck>\n\t\t\t\t\t<custom>\n\t\t\t\t\t</custom>\n\t\t\t\t</_subarrays>\n\t\t\t</1>\n\t\t</data>\n\t</_subarrays>\n</animations>\n"
     lookUp:
       textures: []
       audioClips: []
@@ -1075,11 +1042,11 @@ MonoBehaviour:
       setFoV=\"True\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<position 0 0 0 />\n\t\t\t\t\t<rotation
       0 0 0 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Battle
       Start Zoom]]></name>\n\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t</_string>\n\t\t\t</1>\n\t\t\t<2>\n\t\t\t\t<_float
-      fieldOfView=\"40\" />\n\t\t\t\t<_bool localSpace=\"False\" rotationIsOffset=\"False\"
+      fieldOfView=\"40\" />\n\t\t\t\t<_bool localSpace=\"True\" rotationIsOffset=\"False\"
       lookAt=\"True\" ignoreXRotation=\"False\" ignoreYRotation=\"False\" ignoreZRotation=\"False\"
-      setFoV=\"True\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<position -8 13 0 />\n\t\t\t\t\t<rotation
+      setFoV=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<position 8 0 0 />\n\t\t\t\t\t<rotation
       0 0 0 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Battle
-      View]]></name>\n\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t</_string>\n\t\t\t</2>\n\t\t</data>\n\t</_subarrays>\n</cameraPositions>\n"
+      View]]></name>\n\t\t\t\t\t<childName><![CDATA[Camera]]></childName>\n\t\t\t\t</_string>\n\t\t\t</2>\n\t\t</data>\n\t</_subarrays>\n</cameraPositions>\n"
     lookUp:
       textures: []
       audioClips: []
@@ -1093,7 +1060,9 @@ MonoBehaviour:
   - name: musicClips
     xmlData: "<musicClips>\n\t<_subarrays>\n\t\t<data>\n\t\t\t<0>\n\t\t\t\t<_float
       maxVolume=\"1\" />\n\t\t\t\t<_bool doLoop=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Battle
-      Theme]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<clipLoop>\n\t\t\t\t\t</clipLoop>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t</data>\n\t</_subarrays>\n</musicClips>\n"
+      Theme]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<clipLoop>\n\t\t\t\t\t</clipLoop>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t\t<1>\n\t\t\t\t<_float
+      maxVolume=\"1\" />\n\t\t\t\t<_bool doLoop=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Victory
+      Music]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<clipLoop>\n\t\t\t\t\t</clipLoop>\n\t\t\t\t</_subarrays>\n\t\t\t</1>\n\t\t</data>\n\t</_subarrays>\n</musicClips>\n"
     lookUp:
       textures: []
       audioClips: []
@@ -6116,7 +6085,7 @@ MonoBehaviour:
       saveGameType=\"1\" saveSpawnID=\"0\" boxSaveOption=\"2\" itemSaveOption=\"2\"
       dropSaveOption=\"0\" battlesSaveOption=\"2\" shopsSaveOption=\"2\" objectVariableOption=\"2\"
       saveSpawnedCombatants=\"0\" gameVariableSelector=\"2\" autoBoxID=\"0\" >\n\t<_float
-      autoVisibilityTime=\"3\" />\n\t<_bool loadAsync=\"False\" encryptData=\"False\"
+      autoVisibilityTime=\"3\" />\n\t<_bool loadAsync=\"False\" encryptData=\"True\"
       useFadeOut=\"True\" useFadeIn=\"True\" saveStatistics=\"True\" saveTime=\"True\"
       saveGroups=\"True\" saveFactions=\"True\" saveLogs=\"True\" saveQuests=\"True\"
       saveBestiary=\"True\" saveBattleGains=\"True\" saveGroupPosition=\"True\" saveCameraPosition=\"True\"
@@ -6131,19 +6100,22 @@ MonoBehaviour:
       interpolation=\"0\" >\n\t\t<_float time=\"0.5\" />\n\t\t<_bool alpha=\"True\"
       red=\"False\" green=\"False\" blue=\"False\" fromCurrent=\"False\" />\n\t\t<_floatarrays>\n\t\t\t<startColor
       0 0 0 1 />\n\t\t\t<endColor 0 0 0 0 />\n\t\t</_floatarrays>\n\t</fadeIn>\n\t<saveMenu
-      guiBoxID=\"0\" qGuiBoxID=\"0\" iGuiBoxID=\"0\" >\n\t\t<_bool exitAfterSave=\"False\"
-      showExitQuestion=\"False\" oneBox=\"False\" useTitle=\"False\" addCancel=\"True\"
-      cancelFirst=\"False\" useQuestion=\"True\" useQTitle=\"False\" useChoice=\"False\"
-      useInfo=\"True\" useITitle=\"False\" ownBG=\"False\" />\n\t\t<_stringarrays>\n\t\t\t<message>\n\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t</message>\n\t\t\t<qMessage>\n\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t</qMessage>\n\t\t\t<iMessage>\n\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t</iMessage>\n\t\t</_stringarrays>\n\t</saveMenu>\n\t<loadMenu
-      guiBoxID=\"0\" qGuiBoxID=\"0\" iGuiBoxID=\"0\" >\n\t\t<_bool oneBox=\"False\"
-      useTitle=\"False\" addCancel=\"True\" cancelFirst=\"False\" allAutoSaveSlots=\"False\"
-      useQuestion=\"True\" useQTitle=\"False\" useChoice=\"False\" useInfo=\"True\"
-      useITitle=\"False\" ownBG=\"False\" />\n\t\t<_stringarrays>\n\t\t\t<message>\n\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t</message>\n\t\t\t<qMessage>\n\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t</qMessage>\n\t\t\t<iMessage>\n\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t</iMessage>\n\t\t</_stringarrays>\n\t</loadMenu>\n\t<savePoint
+      guiBoxID=\"1\" qGuiBoxID=\"0\" iGuiBoxID=\"0\" >\n\t\t<_bool exitAfterSave=\"False\"
+      showExitQuestion=\"False\" oneBox=\"True\" useTitle=\"True\" addCancel=\"True\"
+      cancelFirst=\"False\" useQuestion=\"True\" useQTitle=\"False\" useChoice=\"True\"
+      useInfo=\"False\" useITitle=\"False\" ownBG=\"False\" />\n\t\t<_stringarrays>\n\t\t\t<title>\n\t\t\t\t<0><![CDATA[Save]]></0>\n\t\t\t</title>\n\t\t\t<message>\n\t\t\t\t<0><![CDATA[Select
+      the save slot:]]></0>\n\t\t\t</message>\n\t\t\t<qMessage>\n\t\t\t\t<0><![CDATA[Save
+      to slot %?]]></0>\n\t\t\t</qMessage>\n\t\t</_stringarrays>\n\t\t<_subarrays>\n\t\t\t<yesButton>\n\t\t\t\t<0>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<name><![CDATA[Save]]></name>\n\t\t\t\t\t</_string>\n\t\t\t\t</0>\n\t\t\t</yesButton>\n\t\t\t<noButton>\n\t\t\t\t<0>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<name><![CDATA[Cancel]]></name>\n\t\t\t\t\t</_string>\n\t\t\t\t</0>\n\t\t\t</noButton>\n\t\t</_subarrays>\n\t</saveMenu>\n\t<loadMenu
+      guiBoxID=\"1\" qGuiBoxID=\"0\" iGuiBoxID=\"0\" >\n\t\t<_bool oneBox=\"True\"
+      useTitle=\"True\" addCancel=\"True\" cancelFirst=\"False\" allAutoSaveSlots=\"False\"
+      useQuestion=\"True\" useQTitle=\"False\" useChoice=\"True\" useInfo=\"False\"
+      useITitle=\"False\" ownBG=\"False\" />\n\t\t<_stringarrays>\n\t\t\t<title>\n\t\t\t\t<0><![CDATA[Load]]></0>\n\t\t\t</title>\n\t\t\t<message>\n\t\t\t\t<0><![CDATA[Select
+      the load slot:]]></0>\n\t\t\t</message>\n\t\t\t<qMessage>\n\t\t\t\t<0><![CDATA[Load
+      from slot %?]]></0>\n\t\t\t</qMessage>\n\t\t</_stringarrays>\n\t\t<_subarrays>\n\t\t\t<yesButton>\n\t\t\t\t<0>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<name><![CDATA[Load]]></name>\n\t\t\t\t\t</_string>\n\t\t\t\t</0>\n\t\t\t</yesButton>\n\t\t\t<noButton>\n\t\t\t\t<0>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<name><![CDATA[Cancel]]></name>\n\t\t\t\t\t</_string>\n\t\t\t\t</0>\n\t\t\t</noButton>\n\t\t</_subarrays>\n\t</loadMenu>\n\t<savePoint
       guiBoxID=\"0\" >\n\t\t<_bool useTitle=\"False\" showSave=\"True\" showLoad=\"True\"
       showCancel=\"True\" cancelFirst=\"False\" ownCancelButton=\"False\" ownBG=\"False\"
-      />\n\t\t<_stringarrays>\n\t\t\t<message>\n\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t</message>\n\t\t</_stringarrays>\n\t\t<_subarrays>\n\t\t\t<saveButton>\n\t\t\t\t<0>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<name><![CDATA[Save]]></name>\n\t\t\t\t\t</_string>\n\t\t\t\t</0>\n\t\t\t</saveButton>\n\t\t\t<loadButton>\n\t\t\t\t<0>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<name><![CDATA[Load]]></name>\n\t\t\t\t\t</_string>\n\t\t\t\t</0>\n\t\t\t</loadButton>\n\t\t\t<cancelButton>\n\t\t\t\t<0>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<name><![CDATA[Cancel]]></name>\n\t\t\t\t\t</_string>\n\t\t\t\t</0>\n\t\t\t</cancelButton>\n\t\t</_subarrays>\n\t</savePoint>\n\t<_subarrays>\n\t\t<fileInfo>\n\t\t\t<0>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[File
-      %]]></name>\n\t\t\t\t</_string>\n\t\t\t</0>\n\t\t</fileInfo>\n\t\t<emptyInfo>\n\t\t\t<0>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Empty
-      %]]></name>\n\t\t\t\t</_string>\n\t\t\t</0>\n\t\t</emptyInfo>\n\t</_subarrays>\n</saveGameMenu>\n"
+      />\n\t\t<_stringarrays>\n\t\t\t<message>\n\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t</message>\n\t\t</_stringarrays>\n\t\t<_subarrays>\n\t\t\t<saveButton>\n\t\t\t\t<0>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<name><![CDATA[Save]]></name>\n\t\t\t\t\t</_string>\n\t\t\t\t</0>\n\t\t\t</saveButton>\n\t\t\t<loadButton>\n\t\t\t\t<0>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<name><![CDATA[Load]]></name>\n\t\t\t\t\t</_string>\n\t\t\t\t</0>\n\t\t\t</loadButton>\n\t\t\t<cancelButton>\n\t\t\t\t<0>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<name><![CDATA[Cancel]]></name>\n\t\t\t\t\t</_string>\n\t\t\t\t</0>\n\t\t\t</cancelButton>\n\t\t</_subarrays>\n\t</savePoint>\n\t<_subarrays>\n\t\t<fileInfo>\n\t\t\t<0>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[#text.color2##text.boldFile
+      %#<style#<color\r\n%n, Lvl %l\r\nTime: %t\r\nArea: %a]]></name>\n\t\t\t\t</_string>\n\t\t\t</0>\n\t\t</fileInfo>\n\t\t<emptyInfo>\n\t\t\t<0>\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Empty]]></name>\n\t\t\t\t</_string>\n\t\t\t</0>\n\t\t</emptyInfo>\n\t</_subarrays>\n</saveGameMenu>\n"
     lookUp:
       textures: []
       audioClips: []
@@ -6322,10 +6294,13 @@ MonoBehaviour:
       generalAssets: []
     encrypted: 0
   - name: quantitySelections
-    xmlData: "<quantitySelections>\n\t<_subarrays>\n\t\t<data>\n\t\t\t<0 guiBoxID=\"5\"
-      type=\"0\" >\n\t\t\t\t<_bool useTitle=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Default]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<topMessage>\n\t\t\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t\t\t</topMessage>\n\t\t\t\t\t<quantityMessage>\n\t\t\t\t\t\t<0><![CDATA[%]]></0>\n\t\t\t\t\t</quantityMessage>\n\t\t\t\t\t<bottomMessage>\n\t\t\t\t\t\t<0><![CDATA[]]></0>\n\t\t\t\t\t</bottomMessage>\n\t\t\t\t</_stringarrays>\n\t\t\t\t<horizontal
-      change=\"1\" >\n\t\t\t\t\t<_bool loop=\"False\" hideButtons=\"False\" isButton=\"True\"
-      />\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<increase>\n\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[+]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t</increase>\n\t\t\t\t\t\t<decrease>\n\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[-]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t</decrease>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</horizontal>\n\t\t\t</0>\n\t\t</data>\n\t</_subarrays>\n</quantitySelections>\n"
+    xmlData: "<quantitySelections>\n\t<_subarrays>\n\t\t<data>\n\t\t\t<0 guiBoxID=\"0\"
+      type=\"2\" >\n\t\t\t\t<_bool useTitle=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Buy+Sell]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_stringarrays>\n\t\t\t\t\t<topMessage>\n\t\t\t\t\t\t<0><![CDATA[#text.color2##text.bold%n#<style#<color]]></0>\n\t\t\t\t\t</topMessage>\n\t\t\t\t\t<quantityMessage>\n\t\t\t\t\t\t<0><![CDATA[%/%m]]></0>\n\t\t\t\t\t</quantityMessage>\n\t\t\t\t\t<bottomMessage>\n\t\t\t\t\t\t<0><![CDATA[%t\n
+      \ ]]></0>\n\t\t\t\t\t</bottomMessage>\n\t\t\t\t</_stringarrays>\n\t\t\t\t<horizontal
+      change=\"1\" >\n\t\t\t\t\t<_bool loop=\"True\" hideButtons=\"False\" isButton=\"True\"
+      />\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<increase>\n\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[+]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t</increase>\n\t\t\t\t\t\t<decrease>\n\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[-]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t</decrease>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</horizontal>\n\t\t\t\t<vertical
+      change=\"10\" >\n\t\t\t\t\t<_bool loop=\"False\" hideButtons=\"False\" isButton=\"True\"
+      />\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<increase>\n\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[+10]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t</increase>\n\t\t\t\t\t\t<decrease>\n\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t<name><![CDATA[-10]]></name>\n\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t</decrease>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</vertical>\n\t\t\t</0>\n\t\t</data>\n\t</_subarrays>\n</quantitySelections>\n"
     lookUp:
       textures: []
       audioClips: []
@@ -7249,20 +7224,58 @@ MonoBehaviour:
     encrypted: 0
   - name: shopLayouts
     xmlData: "<shopLayouts>\n\t<_subarrays>\n\t\t<data>\n\t\t\t<0 display=\"2\" prevKeyID=\"0\"
-      nextKeyID=\"0\" typeBoxID=\"0\" >\n\t\t\t\t<_bool sellWithoutItems=\"False\"
+      nextKeyID=\"0\" typeBoxID=\"4\" >\n\t\t\t\t<_bool sellWithoutItems=\"False\"
       sellAutoClose=\"True\" allowComChange=\"False\" changeOnlyBattle=\"True\" ownBG=\"False\"
-      showName=\"False\" showBuySell=\"False\" showType=\"False\" showDesc=\"False\"
-      showInfo=\"False\" showComInfo=\"False\" showBuyCombatantInfo=\"False\" showBuyQuestion=\"False\"
-      showSellQuestion=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Default
+      showName=\"False\" showBuySell=\"True\" showType=\"True\" showDesc=\"True\"
+      showInfo=\"True\" showComInfo=\"False\" showBuyCombatantInfo=\"False\" showBuyQuestion=\"False\"
+      showSellQuestion=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Simple
       Layout]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<buyQuantity type=\"0\" >\n\t\t\t\t</buyQuantity>\n\t\t\t\t<sellQuantity
-      type=\"0\" >\n\t\t\t\t</sellQuantity>\n\t\t\t\t<listPart guiBoxID=\"0\" clickCount=\"2\"
-      >\n\t\t\t\t\t<_bool showPortraits=\"False\" useTitle=\"False\" addBack=\"False\"
-      backFirst=\"False\" ownBackLayout=\"False\" enableDrag=\"False\" enableClick=\"False\"
-      enableTooltip=\"False\" useCombatantLayout=\"False\" ownCombatantChoice=\"False\"
-      />\n\t\t\t\t\t<contentLayout type=\"2\" infoType=\"1\" >\n\t\t\t\t\t\t<_bool
+      type=\"0\" >\n\t\t\t\t</sellQuantity>\n\t\t\t\t<buySellPart guiBoxID=\"0\" >\n\t\t\t\t\t<_bool
+      showBackgrounds=\"True\" useTitle=\"False\" />\n\t\t\t\t\t<contentLayout type=\"2\"
+      infoType=\"0\" >\n\t\t\t\t\t\t<_bool hideEmptyInfo=\"False\" />\n\t\t\t\t\t</contentLayout>\n\t\t\t\t\t<headerTexts>\n\t\t\t\t\t\t<_bool
+      useHeaders=\"False\" />\n\t\t\t\t\t</headerTexts>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<button>\n\t\t\t\t\t\t\t<0
+      type=\"0\" >\n\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[Buy]]></name>\n\t\t\t\t\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t</languageInfo>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t<1
+      type=\"1\" >\n\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[Sell]]></name>\n\t\t\t\t\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t</languageInfo>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</1>\n\t\t\t\t\t\t\t<2
+      type=\"2\" >\n\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t<name><![CDATA[Exit]]></name>\n\t\t\t\t\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t</languageInfo>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</2>\n\t\t\t\t\t\t</button>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</buySellPart>\n\t\t\t\t<typePart>\n\t\t\t\t\t<_bool
+      useTitle=\"False\" addBack=\"False\" backFirst=\"False\" combinedSorting=\"False\"
+      />\n\t\t\t\t\t<contentLayout type=\"2\" infoType=\"0\" >\n\t\t\t\t\t\t<_bool
       hideEmptyInfo=\"False\" />\n\t\t\t\t\t</contentLayout>\n\t\t\t\t\t<headerTexts>\n\t\t\t\t\t\t<_bool
+      useHeaders=\"False\" />\n\t\t\t\t\t</headerTexts>\n\t\t\t\t\t<typeSorter sorting=\"1\"
+      >\n\t\t\t\t\t\t<_bool invert=\"False\" />\n\t\t\t\t\t</typeSorter>\n\t\t\t\t</typePart>\n\t\t\t\t<listPart
+      guiBoxID=\"5\" clickCount=\"2\" >\n\t\t\t\t\t<_bool showPortraits=\"False\"
+      useTitle=\"False\" addBack=\"False\" backFirst=\"False\" ownBackLayout=\"False\"
+      enableDrag=\"False\" enableClick=\"False\" enableTooltip=\"False\" useCombatantLayout=\"False\"
+      ownCombatantChoice=\"False\" />\n\t\t\t\t\t<contentLayout type=\"2\" infoType=\"1\"
+      >\n\t\t\t\t\t\t<_bool hideEmptyInfo=\"False\" />\n\t\t\t\t\t</contentLayout>\n\t\t\t\t\t<headerTexts>\n\t\t\t\t\t\t<_bool
       useHeaders=\"False\" />\n\t\t\t\t\t</headerTexts>\n\t\t\t\t\t<contentSorter
-      sorting=\"1\" >\n\t\t\t\t\t\t<_bool invert=\"False\" />\n\t\t\t\t\t</contentSorter>\n\t\t\t\t</listPart>\n\t\t\t</0>\n\t\t</data>\n\t</_subarrays>\n</shopLayouts>\n"
+      sorting=\"1\" >\n\t\t\t\t\t\t<_bool invert=\"False\" />\n\t\t\t\t\t</contentSorter>\n\t\t\t\t</listPart>\n\t\t\t\t<descPart
+      guiBoxID=\"2\" >\n\t\t\t\t\t<_bool always=\"True\" showInBuySell=\"True\" showInType=\"True\"
+      showInList=\"True\" useTitle=\"False\" />\n\t\t\t\t</descPart>\n\t\t\t\t<infoPart
+      guiBoxID=\"6\" >\n\t\t\t\t\t<pageKeys nextPageKey=\"0\" prevPageKey=\"0\" pageAudioType=\"2\"
+      >\n\t\t\t\t\t\t<_bool acceptNext=\"False\" usePageKeys=\"False\" />\n\t\t\t\t\t</pageKeys>\n\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t<page>\n\t\t\t\t\t\t\t<0
+      hudID=\"0\" >\n\t\t\t\t\t\t\t\t<_float updateInterval=\"1\" />\n\t\t\t\t\t\t\t\t<_bool
+      useTitle=\"False\" autoUpdate=\"False\" useHUD=\"False\" />\n\t\t\t\t\t\t\t\t<_subarrays>\n\t\t\t\t\t\t\t\t\t<informationElement>\n\t\t\t\t\t\t\t\t\t\t<0
+      alignment=\"0\" vAlignment=\"2\" clickType=\"0\" globalEventID=\"0\" callScreenID=\"0\"
+      screenReqID=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t<_float lineSpacing=\"10\" clickVolume=\"1\"
+      />\n\t\t\t\t\t\t\t\t\t\t\t<_bool closeScreen=\"False\" screenUseReq=\"False\"
+      box=\"False\" noFlash=\"False\" forceSize=\"False\" outsideBounds=\"False\"
+      showBackground=\"False\" expandBoundsBG=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t<bounds
+      0 0 380 200 />\n\t\t\t\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[HUDText]]></_type>\n\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t<text>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<0><![CDATA[#currency.name0#:\r\nIn
+      Inventory:\r\nEquipped:]]></0>\n\t\t\t\t\t\t\t\t\t\t\t\t</text>\n\t\t\t\t\t\t\t\t\t\t\t</_stringarrays>\n\t\t\t\t\t\t\t\t\t\t\t<textFormat
+      colorID=\"0\" shadowColorID=\"1\" outlineColorID=\"1\" fontSize=\"20\" fontStyle=\"0\"
+      >\n\t\t\t\t\t\t\t\t\t\t\t\t<_bool showShadow=\"True\" showOutline=\"True\" />\n\t\t\t\t\t\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<shadowOffset
+      1 1 />\n\t\t\t\t\t\t\t\t\t\t\t\t\t<outlineOffset 1 1 />\n\t\t\t\t\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t<_font
+      font=\"-1\" />\n\t\t\t\t\t\t\t\t\t\t\t</textFormat>\n\t\t\t\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t\t\t\t\t<1
+      alignment=\"2\" vAlignment=\"2\" clickType=\"0\" globalEventID=\"0\" callScreenID=\"0\"
+      screenReqID=\"0\" >\n\t\t\t\t\t\t\t\t\t\t\t<_float lineSpacing=\"10\" clickVolume=\"1\"
+      />\n\t\t\t\t\t\t\t\t\t\t\t<_bool closeScreen=\"False\" screenUseReq=\"False\"
+      box=\"False\" noFlash=\"False\" forceSize=\"False\" outsideBounds=\"False\"
+      showBackground=\"False\" expandBoundsBG=\"False\" />\n\t\t\t\t\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t<bounds
+      0 0 380 200 />\n\t\t\t\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t\t\t\t\t<_type><![CDATA[HUDText]]></_type>\n\t\t\t\t\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t<text>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<0><![CDATA[#currency.inventory0#\r\n#inventory\r\n#equipped]]></0>\n\t\t\t\t\t\t\t\t\t\t\t\t</text>\n\t\t\t\t\t\t\t\t\t\t\t</_stringarrays>\n\t\t\t\t\t\t\t\t\t\t\t<textFormat
+      colorID=\"0\" shadowColorID=\"1\" outlineColorID=\"1\" fontSize=\"20\" fontStyle=\"0\"
+      >\n\t\t\t\t\t\t\t\t\t\t\t\t<_bool showShadow=\"True\" showOutline=\"True\" />\n\t\t\t\t\t\t\t\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<shadowOffset
+      1 1 />\n\t\t\t\t\t\t\t\t\t\t\t\t\t<outlineOffset 1 1 />\n\t\t\t\t\t\t\t\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t\t\t\t\t\t\t\t<_font
+      font=\"-1\" />\n\t\t\t\t\t\t\t\t\t\t\t</textFormat>\n\t\t\t\t\t\t\t\t\t\t</1>\n\t\t\t\t\t\t\t\t\t</informationElement>\n\t\t\t\t\t\t\t\t</_subarrays>\n\t\t\t\t\t\t\t</0>\n\t\t\t\t\t\t</page>\n\t\t\t\t\t</_subarrays>\n\t\t\t\t</infoPart>\n\t\t\t</0>\n\t\t</data>\n\t</_subarrays>\n</shopLayouts>\n"
     lookUp:
       textures: []
       audioClips: []
@@ -7281,7 +7294,24 @@ MonoBehaviour:
       ownBG=\"False\" sellAllItemTypes=\"True\" sellAllAITypes=\"True\" sellAllCraftingTypes=\"True\"
       setExchangeRate=\"False\" useBuyPriceModifier=\"False\" useSellPriceModifier=\"False\"
       ownMusic=\"False\" lootRandom=\"False\" />\n\t\t\t\t<_intarrays>\n\t\t\t\t\t<lootID
-      />\n\t\t\t\t</_intarrays>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<item>\n\t\t\t\t\t</item>\n\t\t\t\t\t<weapon>\n\t\t\t\t\t</weapon>\n\t\t\t\t\t<armor>\n\t\t\t\t\t</armor>\n\t\t\t\t\t<ability>\n\t\t\t\t\t</ability>\n\t\t\t\t\t<combatant>\n\t\t\t\t\t</combatant>\n\t\t\t\t\t<aiBehaviour>\n\t\t\t\t\t</aiBehaviour>\n\t\t\t\t\t<aiRuleset>\n\t\t\t\t\t</aiRuleset>\n\t\t\t\t\t<craftingRecipe>\n\t\t\t\t\t</craftingRecipe>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Default
+      />\n\t\t\t\t</_intarrays>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<item>\n\t\t\t\t\t\t<0
+      itemID=\"0\" quantity=\"1\" price=\"0\" >\n\t\t\t\t\t\t\t<_float chance=\"100\"
+      />\n\t\t\t\t\t\t\t<_bool limitQuantity=\"False\" overridePrice=\"False\" useVariableConditions=\"False\"
+      />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1 itemID=\"2\" quantity=\"1\" price=\"0\"
+      >\n\t\t\t\t\t\t\t<_float chance=\"100\" />\n\t\t\t\t\t\t\t<_bool limitQuantity=\"False\"
+      overridePrice=\"False\" useVariableConditions=\"False\" />\n\t\t\t\t\t\t</1>\n\t\t\t\t\t\t<2
+      itemID=\"6\" quantity=\"1\" price=\"0\" >\n\t\t\t\t\t\t\t<_float chance=\"100\"
+      />\n\t\t\t\t\t\t\t<_bool limitQuantity=\"False\" overridePrice=\"False\" useVariableConditions=\"False\"
+      />\n\t\t\t\t\t\t</2>\n\t\t\t\t\t</item>\n\t\t\t\t\t<weapon>\n\t\t\t\t\t\t<0
+      equipID=\"4\" level=\"1\" quantity=\"1\" price=\"0\" >\n\t\t\t\t\t\t\t<_float
+      chance=\"100\" />\n\t\t\t\t\t\t\t<_bool limitQuantity=\"False\" overridePrice=\"False\"
+      useVariableConditions=\"False\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</weapon>\n\t\t\t\t\t<armor>\n\t\t\t\t\t\t<0
+      equipID=\"2\" level=\"1\" quantity=\"1\" price=\"0\" >\n\t\t\t\t\t\t\t<_float
+      chance=\"100\" />\n\t\t\t\t\t\t\t<_bool limitQuantity=\"False\" overridePrice=\"False\"
+      useVariableConditions=\"False\" />\n\t\t\t\t\t\t</0>\n\t\t\t\t\t\t<1 equipID=\"5\"
+      level=\"1\" quantity=\"1\" price=\"0\" >\n\t\t\t\t\t\t\t<_float chance=\"100\"
+      />\n\t\t\t\t\t\t\t<_bool limitQuantity=\"False\" overridePrice=\"False\" useVariableConditions=\"False\"
+      />\n\t\t\t\t\t\t</1>\n\t\t\t\t\t</armor>\n\t\t\t\t\t<ability>\n\t\t\t\t\t</ability>\n\t\t\t\t\t<combatant>\n\t\t\t\t\t</combatant>\n\t\t\t\t\t<aiBehaviour>\n\t\t\t\t\t</aiBehaviour>\n\t\t\t\t\t<aiRuleset>\n\t\t\t\t\t</aiRuleset>\n\t\t\t\t\t<craftingRecipe>\n\t\t\t\t\t</craftingRecipe>\n\t\t\t\t\t<languageInfo>\n\t\t\t\t\t\t<0>\n\t\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t\t<name><![CDATA[Test
       Shop]]></name>\n\t\t\t\t\t\t\t\t<description><![CDATA[]]></description>\n\t\t\t\t\t\t\t</_string>\n\t\t\t\t\t\t</0>\n\t\t\t\t\t</languageInfo>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t</data>\n\t</_subarrays>\n</shops>\n"
     lookUp:
       textures: []

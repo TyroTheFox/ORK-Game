@@ -9,9 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -575660022, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
-  m_Name: 636266820732729161
+  m_Name: 636268686891690125
   m_EditorClassIdentifier: 
-  time: 4/1/2017 10:20:13 PM
+  time: 4/4/2017 2:06:34 AM
   version: 2.10.0
   keys:
   - editorSettings
@@ -1060,7 +1060,9 @@ MonoBehaviour:
   - name: musicClips
     xmlData: "<musicClips>\n\t<_subarrays>\n\t\t<data>\n\t\t\t<0>\n\t\t\t\t<_float
       maxVolume=\"1\" />\n\t\t\t\t<_bool doLoop=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Battle
-      Theme]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<clipLoop>\n\t\t\t\t\t</clipLoop>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t</data>\n\t</_subarrays>\n</musicClips>\n"
+      Theme]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<clipLoop>\n\t\t\t\t\t</clipLoop>\n\t\t\t\t</_subarrays>\n\t\t\t</0>\n\t\t\t<1>\n\t\t\t\t<_float
+      maxVolume=\"1\" />\n\t\t\t\t<_bool doLoop=\"False\" />\n\t\t\t\t<_string>\n\t\t\t\t\t<name><![CDATA[Victory
+      Music]]></name>\n\t\t\t\t</_string>\n\t\t\t\t<_subarrays>\n\t\t\t\t\t<clipLoop>\n\t\t\t\t\t</clipLoop>\n\t\t\t\t</_subarrays>\n\t\t\t</1>\n\t\t</data>\n\t</_subarrays>\n</musicClips>\n"
     lookUp:
       textures: []
       audioClips: []
@@ -4594,7 +4596,7 @@ MonoBehaviour:
       animateNone=\"False\" animateRetreat=\"False\" animateEnterBattle=\"False\"
       animateJoinBattle=\"False\" joinLookAt=\"False\" ownGridMoveAnimation=\"False\"
       animateGridMove=\"False\" useClassShortcuts=\"False\" useBattleAnims=\"True\"
-      autoMoveAnimation=\"True\" useMoveAI=\"False\" useBattleMoveAI=\"False\" />\n\t\t\t\t<_intarrays>\n\t\t\t\t\t<controlMap
+      autoMoveAnimation=\"False\" useMoveAI=\"False\" useBattleMoveAI=\"False\" />\n\t\t\t\t<_intarrays>\n\t\t\t\t\t<controlMap
       />\n\t\t\t\t\t<defenceAttributeID 0 1 />\n\t\t\t\t\t<money 500 />\n\t\t\t\t</_intarrays>\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<spawnOffset
       0 0 0 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<prefabRoot><![CDATA[]]></prefabRoot>\n\t\t\t\t\t<animationCustomName><![CDATA[]]></animationCustomName>\n\t\t\t\t</_string>\n\t\t\t\t<_gameobject
       prefab=\"0\" />\n\t\t\t\t<bonus>\n\t\t\t\t\t<_bool useCustomBonus=\"False\"
@@ -4617,10 +4619,7 @@ MonoBehaviour:
       range=\"20\" threshold=\"0\" />\n\t\t\t\t\t<_bool ignoreHeightDistance=\"True\"
       ignoreRadius=\"False\" />\n\t\t\t\t</aggressionNotifyRangeGroup>\n\t\t\t\t<aggressionNotifyRangeFaction>\n\t\t\t\t\t<_float
       range=\"20\" threshold=\"0\" />\n\t\t\t\t\t<_bool ignoreHeightDistance=\"True\"
-      ignoreRadius=\"False\" />\n\t\t\t\t</aggressionNotifyRangeFaction>\n\t\t\t\t<autoAnimation>\n\t\t\t\t\t<_float
-      minFallTime=\"0.3\" minRunSpeed=\"3\" runSpeedThreshold=\"0\" minSprintSpeed=\"6\"
-      sprintSpeedThreshold=\"0\" minSpeedChange=\"1\" speedChangeDelay=\"0.1\" />\n\t\t\t\t\t<_bool
-      useSpeedChangeDelay=\"False\" />\n\t\t\t\t</autoAnimation>\n\t\t\t\t<moveSettings>\n\t\t\t\t\t<_float
+      ignoreRadius=\"False\" />\n\t\t\t\t</aggressionNotifyRangeFaction>\n\t\t\t\t<moveSettings>\n\t\t\t\t\t<_float
       min=\"1\" max=\"10\" />\n\t\t\t\t\t<_bool usePositionChange=\"False\" />\n\t\t\t\t\t<walkSpeed
       type=\"0\" id=\"0\" rounding=\"0\" >\n\t\t\t\t\t\t<_float initialValue=\"0\"
       offset=\"0\" value=\"3\" value2=\"0\" />\n\t\t\t\t\t\t<_bool isInt=\"False\"

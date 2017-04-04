@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: -192417995, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
   m_Name: simpleStart
   m_EditorClassIdentifier: 
-  time: 3/27/2017 11:45:18 PM
+  time: 4/4/2017 2:24:48 AM
   version: 2.10.0
   data:
     name: battleStartEvent
@@ -45,7 +45,7 @@ MonoBehaviour:
       rolloff=\"1\" >\n\t\t\t\t\t<_float volume=\"1\" minD=\"0\" maxD=\"100\" pitch=\"1\"
       panLevel=\"0\" pan=\"0\" />\n\t\t\t\t\t<_bool oneShot=\"True\" advSet=\"False\"
       loop=\"False\" ignoreLV=\"False\" setPan=\"False\" />\n\t\t\t\t</audio>\n\t\t\t</3>\n\t\t\t<4
-      id=\"0\" interpolation=\"1\" next=\"5\" >\n\t\t\t\t<_float fov=\"40\" timeBetween=\"0\"
+      id=\"1\" interpolation=\"1\" next=\"5\" >\n\t\t\t\t<_float fov=\"40\" timeBetween=\"0\"
       />\n\t\t\t\t<_bool useObject=\"False\" setPosition=\"False\" localSpace=\"True\"
       setRotation=\"False\" setFoV=\"False\" useCenter=\"False\" useAll=\"False\"
       waitBetween=\"True\" fade=\"True\" wait=\"False\" active=\"True\" overrideNodeName=\"False\"
@@ -72,27 +72,24 @@ MonoBehaviour:
       type=\"0\" >\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</usedObject>\n\t\t\t</7>\n\t\t\t<8
       id=\"0\" next=\"9\" >\n\t\t\t\t<_bool all=\"True\" active=\"True\" overrideNodeName=\"False\"
       />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition 266 190 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[SpawnCombatantsStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t</8>\n\t\t\t<9
-      next=\"10\" >\n\t\t\t\t<_bool active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
-      494 190 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[LookAtEnemiesStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t</9>\n\t\t\t<10
-      next=\"11\" >\n\t\t\t\t<_bool random=\"False\" active=\"True\" overrideNodeName=\"False\"
-      />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition 722 190 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[WaitStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<time
+      next=\"10\" >\n\t\t\t\t<_bool random=\"False\" active=\"True\" overrideNodeName=\"False\"
+      />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition 494 190 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[WaitStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<time
       type=\"0\" origin=\"1\" multiVariableUseType=\"0\" formulaID=\"0\" rounding=\"0\"
       >\n\t\t\t\t\t<_float initialValue=\"0\" offset=\"0\" value=\"0.1\" value2=\"0\"
-      />\n\t\t\t\t\t<_bool useObject=\"True\" isInt=\"False\" isUTC=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t</_string>\n\t\t\t\t</time>\n\t\t\t</10>\n\t\t\t<11
-      id=\"2\" interpolation=\"0\" next=\"12\" >\n\t\t\t\t<_float fov=\"40\" timeBetween=\"0\"
+      />\n\t\t\t\t\t<_bool useObject=\"True\" isInt=\"False\" isUTC=\"False\" />\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<objectID><![CDATA[]]></objectID>\n\t\t\t\t\t\t<name><![CDATA[]]></name>\n\t\t\t\t\t</_string>\n\t\t\t\t</time>\n\t\t\t</9>\n\t\t\t<10
+      id=\"0\" interpolation=\"0\" next=\"11\" >\n\t\t\t\t<_float fov=\"40\" timeBetween=\"0\"
       />\n\t\t\t\t<_bool useObject=\"False\" setPosition=\"False\" localSpace=\"True\"
-      setRotation=\"False\" setFoV=\"False\" useCenter=\"False\" useAll=\"False\"
-      waitBetween=\"True\" fade=\"False\" wait=\"False\" active=\"True\" overrideNodeName=\"False\"
-      />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<pOffset 0 0 0 />\n\t\t\t\t\t<rOffset
-      0 0 0 />\n\t\t\t\t\t<nodePosition 38 266 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[ChangeCameraPositionStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<onObject
-      type=\"1\" aID=\"0\" wID=\"3\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey
-      type=\"0\" >\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</onObject>\n\t\t\t</11>\n\t\t\t<12
+      setRotation=\"False\" setFoV=\"False\" useCenter=\"True\" useAll=\"False\" waitBetween=\"True\"
+      fade=\"False\" wait=\"False\" active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<pOffset
+      0 0 0 />\n\t\t\t\t\t<rOffset 0 0 0 />\n\t\t\t\t\t<nodePosition 703 190 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[ChangeCameraPositionStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<onObject
+      type=\"0\" aID=\"0\" wID=\"3\" pID=\"0\" pID2=\"-1\" >\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<objectKey
+      type=\"0\" >\n\t\t\t\t\t\t<_string>\n\t\t\t\t\t\t\t<value><![CDATA[]]></value>\n\t\t\t\t\t\t</_string>\n\t\t\t\t\t</objectKey>\n\t\t\t\t</onObject>\n\t\t\t</10>\n\t\t\t<11
       next=\"-1\" >\n\t\t\t\t<_bool wait=\"False\" flash=\"False\" active=\"True\"
       overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
-      266 266 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[FadeScreenStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<color
+      38 266 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[FadeScreenStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<color
       interpolation=\"0\" >\n\t\t\t\t\t<_float time=\"0.5\" />\n\t\t\t\t\t<_bool alpha=\"True\"
       red=\"True\" green=\"True\" blue=\"True\" fromCurrent=\"True\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<startColor
-      0 0 0 0 />\n\t\t\t\t\t\t<endColor 1 1 1 0 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t</color>\n\t\t\t</12>\n\t\t</step>\n\t</_subarrays>\n</battleStartEvent>\n"
+      0 0 0 0 />\n\t\t\t\t\t\t<endColor 1 1 1 0 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t</color>\n\t\t\t</11>\n\t\t</step>\n\t</_subarrays>\n</battleStartEvent>\n"
     lookUp:
       textures: []
       audioClips:

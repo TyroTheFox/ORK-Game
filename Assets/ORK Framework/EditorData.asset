@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Name: EditorData
   m_EditorClassIdentifier: 
   lastProject: {fileID: 11400000, guid: 18c89c7b99abc6447b1fad36001adaaf, type: 2}
-  section: 1
-  subSection: 4
+  section: 3
+  subSection: 0
   tabIndex: 0
   scrollY: 0
   helpDrag: 220
@@ -29,7 +29,11 @@ MonoBehaviour:
   updateScenes: 0
   sceneUpdate: 
   eventAsset:
+  - {fileID: 11400000, guid: ab7f7973430bfb9428b2534148ddb14e, type: 2}
+  - {fileID: 11400000, guid: d7bd02e243a47aa4a83659210d4c67d5, type: 2}
+  - {fileID: 11400000, guid: 83deaf47adfd6cd46b1671205e2aff54, type: 2}
   - {fileID: 11400000, guid: 4a99fb17e373dda45985dbba79883715, type: 2}
+  - {fileID: 11400000, guid: 5debfc606b8dd984a8114b49b14c4b6f, type: 2}
   - {fileID: 11400000, guid: 8c6abec58d9c8014f9e542ea719fc8e8, type: 2}
   - {fileID: 11400000, guid: 4cf36d72ca820c249affcd65d292c163, type: 2}
   - {fileID: 11400000, guid: 97cd3d292a8fdca49af79fd9daff2517, type: 2}
@@ -48,7 +52,11 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 97cd3d292a8fdca49af79fd9daff2517, type: 2}
   battleStartEventAsset:
   - {fileID: 11400000, guid: 4a99fb17e373dda45985dbba79883715, type: 2}
-  battleEndEventAsset: []
+  - {fileID: 11400000, guid: 5debfc606b8dd984a8114b49b14c4b6f, type: 2}
+  battleEndEventAsset:
+  - {fileID: 11400000, guid: ab7f7973430bfb9428b2534148ddb14e, type: 2}
+  - {fileID: 11400000, guid: d7bd02e243a47aa4a83659210d4c67d5, type: 2}
+  - {fileID: 11400000, guid: 83deaf47adfd6cd46b1671205e2aff54, type: 2}
   phaseChangeEventAsset: []
   variablesDefined: []
   variablesEditor: []
