@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: EditorData
   m_EditorClassIdentifier: 
   lastProject: {fileID: 11400000, guid: 18c89c7b99abc6447b1fad36001adaaf, type: 2}
-  section: 3
+  section: 9
   subSection: 0
   tabIndex: 0
   scrollY: 0
@@ -29,6 +29,12 @@ MonoBehaviour:
   updateScenes: 0
   sceneUpdate: 
   eventAsset:
+  - {fileID: 11400000, guid: 3d4f7b305c609fd4186f0675f359ebfc, type: 2}
+  - {fileID: 11400000, guid: c974d707c02aa7e4faae4a0764f89111, type: 2}
+  - {fileID: 11400000, guid: 05696703a3a88df45804042ad9627aa4, type: 2}
+  - {fileID: 11400000, guid: b11efb41e496b6145a856a4d16657314, type: 2}
+  - {fileID: 11400000, guid: b2e7ae8b19c0eb348a91c45a0b730c48, type: 2}
+  - {fileID: 11400000, guid: 2cd599c74aa726d4dbd72daddd7a6635, type: 2}
   - {fileID: 11400000, guid: ab7f7973430bfb9428b2534148ddb14e, type: 2}
   - {fileID: 11400000, guid: d7bd02e243a47aa4a83659210d4c67d5, type: 2}
   - {fileID: 11400000, guid: 83deaf47adfd6cd46b1671205e2aff54, type: 2}
@@ -39,11 +45,14 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 97cd3d292a8fdca49af79fd9daff2517, type: 2}
   - {fileID: 11400000, guid: dd1fd725b51a88643a9ebf78f79f4e1d, type: 2}
   - {fileID: 11400000, guid: f2d154988ce81bb419dc890e4b0bee8f, type: 2}
-  - {fileID: 11400000, guid: 2cd599c74aa726d4dbd72daddd7a6635, type: 2}
   gameEventAsset:
-  - {fileID: 0}
-  - {fileID: 11400000, guid: f2d154988ce81bb419dc890e4b0bee8f, type: 2}
+  - {fileID: 11400000, guid: 3d4f7b305c609fd4186f0675f359ebfc, type: 2}
+  - {fileID: 11400000, guid: c974d707c02aa7e4faae4a0764f89111, type: 2}
+  - {fileID: 11400000, guid: 05696703a3a88df45804042ad9627aa4, type: 2}
+  - {fileID: 11400000, guid: b11efb41e496b6145a856a4d16657314, type: 2}
+  - {fileID: 11400000, guid: b2e7ae8b19c0eb348a91c45a0b730c48, type: 2}
   - {fileID: 11400000, guid: 2cd599c74aa726d4dbd72daddd7a6635, type: 2}
+  - {fileID: 11400000, guid: f2d154988ce81bb419dc890e4b0bee8f, type: 2}
   moveEventAsset:
   - {fileID: 11400000, guid: dd1fd725b51a88643a9ebf78f79f4e1d, type: 2}
   battleEventAsset:

@@ -9,9 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -1501101930, guid: f4979b3083d349140bb14b6ec7fc999a, type: 3}
-  m_Name: Test Dialogue
+  m_Name: Outside-FirstEncounter
   m_EditorClassIdentifier: 
-  time: 4/4/2017 2:26:26 PM
+  time: 4/4/2017 2:37:19 PM
   version: 2.10.0
   data:
     name: gameEvent
@@ -30,7 +30,7 @@ MonoBehaviour:
       useTitle=\"True\" outputToConsole=\"False\" useAudio=\"False\" stopAudio=\"True\"
       onSpeaker=\"False\" allowCancel=\"False\" blockAccept=\"False\" afterAudio=\"False\"
       wait=\"False\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<posOff 0 0 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<posChildName><![CDATA[]]></posChildName>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t<title>\n\t\t\t\t\t\t\t<0><![CDATA[Operator]]></0>\n\t\t\t\t\t\t</title>\n\t\t\t\t\t\t<message>\n\t\t\t\t\t\t\t<0><![CDATA[#text.boldGreatings
-      Human!#<style]]></0>\n\t\t\t\t\t\t</message>\n\t\t\t\t\t</_stringarrays>\n\t\t\t\t</dialogue>\n\t\t\t</0>\n\t\t\t<1
+      Adventur-rur-rur!#<style]]></0>\n\t\t\t\t\t\t</message>\n\t\t\t\t\t</_stringarrays>\n\t\t\t\t</dialogue>\n\t\t\t</0>\n\t\t\t<1
       next=\"2\" >\n\t\t\t\t<_bool active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
       494 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[ShowDialogueStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<dialogue
       type=\"0\" guiBoxID=\"1\" actorID=\"0\" portraitType=\"0\" consoleTypeID=\"0\"
@@ -38,7 +38,8 @@ MonoBehaviour:
       atActorPosition=\"False\" speakerName=\"False\" speakerPortrait=\"False\" ownPortraitPosition=\"False\"
       useTitle=\"True\" outputToConsole=\"False\" useAudio=\"False\" stopAudio=\"True\"
       onSpeaker=\"False\" allowCancel=\"False\" blockAccept=\"False\" afterAudio=\"False\"
-      wait=\"False\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<posOff 0 0 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<posChildName><![CDATA[]]></posChildName>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t<title>\n\t\t\t\t\t\t\t<0><![CDATA[Toivo]]></0>\n\t\t\t\t\t\t</title>\n\t\t\t\t\t\t<message>\n\t\t\t\t\t\t\t<0><![CDATA[H-hi?]]></0>\n\t\t\t\t\t\t</message>\n\t\t\t\t\t</_stringarrays>\n\t\t\t\t</dialogue>\n\t\t\t</1>\n\t\t\t<2
+      wait=\"False\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<posOff 0 0 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<posChildName><![CDATA[]]></posChildName>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t<title>\n\t\t\t\t\t\t\t<0><![CDATA[Toivo]]></0>\n\t\t\t\t\t\t</title>\n\t\t\t\t\t\t<message>\n\t\t\t\t\t\t\t<0><![CDATA[Do
+      you have any idea what I'm doing here?]]></0>\n\t\t\t\t\t\t</message>\n\t\t\t\t\t</_stringarrays>\n\t\t\t\t</dialogue>\n\t\t\t</1>\n\t\t\t<2
       next=\"3\" >\n\t\t\t\t<_bool active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
       722 38 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[ShowDialogueStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<dialogue
       type=\"0\" guiBoxID=\"1\" actorID=\"0\" portraitType=\"0\" consoleTypeID=\"0\"
@@ -46,9 +47,9 @@ MonoBehaviour:
       atActorPosition=\"False\" speakerName=\"False\" speakerPortrait=\"False\" ownPortraitPosition=\"False\"
       useTitle=\"True\" outputToConsole=\"False\" useAudio=\"False\" stopAudio=\"True\"
       onSpeaker=\"False\" allowCancel=\"False\" blockAccept=\"False\" afterAudio=\"False\"
-      wait=\"False\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<posOff 0 0 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<posChildName><![CDATA[]]></posChildName>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t<title>\n\t\t\t\t\t\t\t<0><![CDATA[Operator]]></0>\n\t\t\t\t\t\t</title>\n\t\t\t\t\t\t<message>\n\t\t\t\t\t\t\t<0><![CDATA[#text.boldYour
-      adventure experience is ready for you to beg-g-g-g-gin. Defeat the dragon to
-      win. Please enjoy.#<style]]></0>\n\t\t\t\t\t\t</message>\n\t\t\t\t\t</_stringarrays>\n\t\t\t\t</dialogue>\n\t\t\t</2>\n\t\t\t<3
+      wait=\"False\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<posOff 0 0 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<posChildName><![CDATA[]]></posChildName>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t<title>\n\t\t\t\t\t\t\t<0><![CDATA[Operator]]></0>\n\t\t\t\t\t\t</title>\n\t\t\t\t\t\t<message>\n\t\t\t\t\t\t\t<0><![CDATA[#text.boldI
+      was in the forest and came across a dangerous wolf that bit my leg. Someone
+      should do something about those pesky wolves!#<style]]></0>\n\t\t\t\t\t\t</message>\n\t\t\t\t\t</_stringarrays>\n\t\t\t\t</dialogue>\n\t\t\t</2>\n\t\t\t<3
       next=\"4\" >\n\t\t\t\t<_bool active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
       38 133 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[ShowDialogueStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<dialogue
       type=\"0\" guiBoxID=\"1\" actorID=\"0\" portraitType=\"0\" consoleTypeID=\"0\"
@@ -56,8 +57,9 @@ MonoBehaviour:
       atActorPosition=\"False\" speakerName=\"False\" speakerPortrait=\"False\" ownPortraitPosition=\"False\"
       useTitle=\"True\" outputToConsole=\"False\" useAudio=\"False\" stopAudio=\"True\"
       onSpeaker=\"False\" allowCancel=\"False\" blockAccept=\"False\" afterAudio=\"False\"
-      wait=\"False\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<posOff 0 0 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<posChildName><![CDATA[]]></posChildName>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t<title>\n\t\t\t\t\t\t\t<0><![CDATA[Toivo]]></0>\n\t\t\t\t\t\t</title>\n\t\t\t\t\t\t<message>\n\t\t\t\t\t\t\t<0><![CDATA[Thanks?
-      What did I sign up to?]]></0>\n\t\t\t\t\t\t</message>\n\t\t\t\t\t</_stringarrays>\n\t\t\t\t</dialogue>\n\t\t\t</3>\n\t\t\t<4
+      wait=\"False\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<posOff 0 0 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<posChildName><![CDATA[]]></posChildName>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t<title>\n\t\t\t\t\t\t\t<0><![CDATA[Toivo]]></0>\n\t\t\t\t\t\t</title>\n\t\t\t\t\t\t<message>\n\t\t\t\t\t\t\t<0><![CDATA[No,
+      my name is Toivo. I want to know why I'm in a shoddy looking town with a bunch
+      of crap looking robot people. I think I'm in some tourist trap.]]></0>\n\t\t\t\t\t\t</message>\n\t\t\t\t\t</_stringarrays>\n\t\t\t\t</dialogue>\n\t\t\t</3>\n\t\t\t<4
       next=\"5\" >\n\t\t\t\t<_bool active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
       266 133 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[ShowDialogueStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<dialogue
       type=\"0\" guiBoxID=\"1\" actorID=\"0\" portraitType=\"0\" consoleTypeID=\"0\"
@@ -65,15 +67,37 @@ MonoBehaviour:
       atActorPosition=\"False\" speakerName=\"False\" speakerPortrait=\"False\" ownPortraitPosition=\"False\"
       useTitle=\"True\" outputToConsole=\"False\" useAudio=\"False\" stopAudio=\"True\"
       onSpeaker=\"False\" allowCancel=\"False\" blockAccept=\"False\" afterAudio=\"False\"
-      wait=\"False\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<posOff 0 0 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<posChildName><![CDATA[]]></posChildName>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t<title>\n\t\t\t\t\t\t\t<0><![CDATA[Operator]]></0>\n\t\t\t\t\t\t</title>\n\t\t\t\t\t\t<message>\n\t\t\t\t\t\t\t<0><![CDATA[...]]></0>\n\t\t\t\t\t\t</message>\n\t\t\t\t\t</_stringarrays>\n\t\t\t\t</dialogue>\n\t\t\t</4>\n\t\t\t<5
-      next=\"-1\" >\n\t\t\t\t<_bool active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      wait=\"False\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<posOff 0 0 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<posChildName><![CDATA[]]></posChildName>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t<title>\n\t\t\t\t\t\t\t<0><![CDATA[Operator]]></0>\n\t\t\t\t\t\t</title>\n\t\t\t\t\t\t<message>\n\t\t\t\t\t\t\t<0><![CDATA[#text.boldI
+      was in the forest and came across a dangerous wolf that bit my leg. Someone
+      should do something about those pesky wolves!#<style]]></0>\n\t\t\t\t\t\t</message>\n\t\t\t\t\t</_stringarrays>\n\t\t\t\t</dialogue>\n\t\t\t</4>\n\t\t\t<5
+      next=\"6\" >\n\t\t\t\t<_bool active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
       494 133 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[ShowDialogueStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<dialogue
       type=\"0\" guiBoxID=\"1\" actorID=\"0\" portraitType=\"0\" consoleTypeID=\"0\"
       clipID=\"0\" cancelNext=\"-1\" >\n\t\t\t\t\t<_bool waitClose=\"True\" useSpeaker=\"True\"
       atActorPosition=\"False\" speakerName=\"False\" speakerPortrait=\"False\" ownPortraitPosition=\"False\"
       useTitle=\"True\" outputToConsole=\"False\" useAudio=\"False\" stopAudio=\"True\"
       onSpeaker=\"False\" allowCancel=\"False\" blockAccept=\"False\" afterAudio=\"False\"
-      wait=\"False\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<posOff 0 0 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<posChildName><![CDATA[]]></posChildName>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t<title>\n\t\t\t\t\t\t\t<0><![CDATA[Toivo]]></0>\n\t\t\t\t\t\t</title>\n\t\t\t\t\t\t<message>\n\t\t\t\t\t\t\t<0><![CDATA[Wonderful...]]></0>\n\t\t\t\t\t\t</message>\n\t\t\t\t\t</_stringarrays>\n\t\t\t\t</dialogue>\n\t\t\t</5>\n\t\t</step>\n\t</_subarrays>\n</gameEvent>\n"
+      wait=\"False\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<posOff 0 0 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<posChildName><![CDATA[]]></posChildName>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t<title>\n\t\t\t\t\t\t\t<0><![CDATA[Toivo]]></0>\n\t\t\t\t\t\t</title>\n\t\t\t\t\t\t<message>\n\t\t\t\t\t\t\t<0><![CDATA[Do
+      you have any kind of AI in you at all?! Hello?!]]></0>\n\t\t\t\t\t\t</message>\n\t\t\t\t\t</_stringarrays>\n\t\t\t\t</dialogue>\n\t\t\t</5>\n\t\t\t<6
+      next=\"7\" >\n\t\t\t\t<_bool active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      722 133 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[ShowDialogueStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<dialogue
+      type=\"0\" guiBoxID=\"1\" actorID=\"0\" portraitType=\"0\" consoleTypeID=\"0\"
+      clipID=\"0\" cancelNext=\"-1\" >\n\t\t\t\t\t<_bool waitClose=\"True\" useSpeaker=\"True\"
+      atActorPosition=\"False\" speakerName=\"False\" speakerPortrait=\"False\" ownPortraitPosition=\"False\"
+      useTitle=\"True\" outputToConsole=\"False\" useAudio=\"False\" stopAudio=\"True\"
+      onSpeaker=\"False\" allowCancel=\"False\" blockAccept=\"False\" afterAudio=\"False\"
+      wait=\"False\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<posOff 0 0 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<posChildName><![CDATA[]]></posChildName>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t<title>\n\t\t\t\t\t\t\t<0><![CDATA[Operator]]></0>\n\t\t\t\t\t\t</title>\n\t\t\t\t\t\t<message>\n\t\t\t\t\t\t\t<0><![CDATA[#text.boldI
+      was in the forest and came across a dangerous wolf that bit my leg. Someone
+      should do something about those pesky wolves!#<style]]></0>\n\t\t\t\t\t\t</message>\n\t\t\t\t\t</_stringarrays>\n\t\t\t\t</dialogue>\n\t\t\t</6>\n\t\t\t<7
+      next=\"-1\" >\n\t\t\t\t<_bool active=\"True\" overrideNodeName=\"False\" />\n\t\t\t\t<_floatarrays>\n\t\t\t\t\t<nodePosition
+      38 228 />\n\t\t\t\t</_floatarrays>\n\t\t\t\t<_string>\n\t\t\t\t\t<nodeName><![CDATA[]]></nodeName>\n\t\t\t\t\t<_type><![CDATA[ShowDialogueStep]]></_type>\n\t\t\t\t</_string>\n\t\t\t\t<dialogue
+      type=\"0\" guiBoxID=\"1\" actorID=\"0\" portraitType=\"0\" consoleTypeID=\"0\"
+      clipID=\"0\" cancelNext=\"-1\" >\n\t\t\t\t\t<_bool waitClose=\"True\" useSpeaker=\"True\"
+      atActorPosition=\"False\" speakerName=\"False\" speakerPortrait=\"False\" ownPortraitPosition=\"False\"
+      useTitle=\"True\" outputToConsole=\"False\" useAudio=\"False\" stopAudio=\"True\"
+      onSpeaker=\"False\" allowCancel=\"False\" blockAccept=\"False\" afterAudio=\"False\"
+      wait=\"False\" />\n\t\t\t\t\t<_floatarrays>\n\t\t\t\t\t\t<posOff 0 0 />\n\t\t\t\t\t</_floatarrays>\n\t\t\t\t\t<_string>\n\t\t\t\t\t\t<posChildName><![CDATA[]]></posChildName>\n\t\t\t\t\t\t<childName><![CDATA[]]></childName>\n\t\t\t\t\t</_string>\n\t\t\t\t\t<_stringarrays>\n\t\t\t\t\t\t<title>\n\t\t\t\t\t\t\t<0><![CDATA[Toivo]]></0>\n\t\t\t\t\t\t</title>\n\t\t\t\t\t\t<message>\n\t\t\t\t\t\t\t<0><![CDATA[Eeeghhh...Is
+      everyone else in this place just as braindead?]]></0>\n\t\t\t\t\t\t</message>\n\t\t\t\t\t</_stringarrays>\n\t\t\t\t</dialogue>\n\t\t\t</7>\n\t\t</step>\n\t</_subarrays>\n</gameEvent>\n"
     lookUp:
       textures: []
       audioClips: []
